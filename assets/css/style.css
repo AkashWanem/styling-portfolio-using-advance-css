@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+body {
+    display: flexbox;
+    width: fit-content;
+}
+
 header {
     width: 100%;
     height: 400px;
@@ -20,6 +25,8 @@ header p {
     text-align: center;
 }
 
+/* navbar*/
+
 nav {
     display: flex;
     justify-content: center;
@@ -33,6 +40,8 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+
+/*about section*/
 
 #about {
     background-color: #f8f9fa;
@@ -61,6 +70,8 @@ nav a {
 .container {
     padding: 2px 16px;
   }
+
+/*work section */
 
 #work {
     width: 100%;
@@ -91,11 +102,67 @@ nav a {
     text-align: center;
 }
 
-.minis {
-    margin-right: 50px;
+/*contact sectoion*/
+
+#contact {
+    background-image: url(/styling-portfolio-using-advance-css/assets/images/background1.jpeg);
+    width: 100%;
+    height: 100%;
 }
 
-@media screen (max-width: 726px) {
-    
+#contact h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+}
+
+.details img {
+    text-align: center;
+    margin-left: 95px;
+}
+
+.linkedin {
+    padding-left: 170px;
+}
+
+.facebook {
+    padding-left: 170px;
+}
+
+/*media query to make the site fit in various kind of devices*/
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        float:left;
+    }
+    header,
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .info {
+        display: flex;
+        width: 100%;
+        color: blue;
+        flex-wrap: wrap;
+    }
+    .project {
+        display: flex;
+        width: 100%;
+        background-color: cadetblue;
+        flex-wrap: wrap;
+    }
+    .details {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .email {
+        padding-left: 170px;
+    }
 }
     
