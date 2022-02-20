@@ -29,7 +29,8 @@ header p {
 
 nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
     margin-top: 125px;
     font-size: 25px;
@@ -97,15 +98,23 @@ nav a {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
-.container-1 {
+.item-wrap img {
+    height: 200px;
+}
+
+.item-wrap a {
+    text-decoration: none;
     color: #fff;
+}
+
+.container-1 {
     text-align: center;
 }
 
 /*contact sectoion*/
 
 #contact {
-    background-image: url(/styling-portfolio-using-advance-css/assets/images/background1.jpeg);
+    background-image: url('/assets/images/background1.jpeg');
     width: 100%;
     height: 100%;
 }
@@ -117,19 +126,15 @@ nav a {
 
 .details {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
-.details img {
-    text-align: center;
-    margin-left: 95px;
-}
-
-.linkedin {
-    padding-left: 170px;
-}
-
-.facebook {
-    padding-left: 170px;
+.details a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /*media query to make the site fit in various kind of devices*/
