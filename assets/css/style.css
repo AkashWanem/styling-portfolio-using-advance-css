@@ -72,6 +72,13 @@ nav a {
     padding: 2px 16px;
   }
 
+
+.bio {
+    border: 2px solid rgb(145, 129, 129);
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
 /*work section */
 
 #work {
@@ -139,7 +146,7 @@ nav a {
 
 /*media query to make the site fit in various kind of devices*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     header h1 {
         float:left;
     }
@@ -149,11 +156,18 @@ nav a {
         justify-content: center;
         flex-direction: column;
     }
+    #about {
+        margin-top: 20px;
+    }
     .info {
         display: flex;
         width: 100%;
         color: blue;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bio {
+        margin-top: 20px;
     }
     .project {
         display: flex;
@@ -165,9 +179,6 @@ nav a {
         display: flex;
         width: 100%;
         flex-direction: column;
-    }
-    .email {
-        padding-left: 170px;
     }
 }
     
