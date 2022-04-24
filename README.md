@@ -6,8 +6,9 @@ In this task we were asked to built a single page portfolio website to demonstar
 Tchnologies used : HTML, Css, Bootstrap, Fontawesome & Google fonts.
 
 screenshot:
+![portfolio3](https://user-images.githubusercontent.com/88898180/164994919-9fc407e2-17c4-4a1e-b2b4-454802acaf9f.png)
 
-![Updated portfolio](https://user-images.githubusercontent.com/88898180/154852444-0b9ed121-c5be-4389-8711-00fb26edd1e6.png)
+
 
 Link to deployed application : 
 https://akashwanem.github.io/styling-portfolio-using-advance-css/
