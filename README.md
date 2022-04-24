@@ -6,7 +6,8 @@ In this task we were asked to built a single page portfolio website to demonstar
 Tchnologies used : HTML, Css, Bootstrap, Fontawesome & Google fonts.
 
 screenshot:
-![3rd portfolio update](https://user-images.githubusercontent.com/88898180/164994378-25e747aa-79c9-46c5-a424-3341eac7d8b3.png)
+![portfolio3](https://user-images.githubusercontent.com/88898180/164994919-9fc407e2-17c4-4a1e-b2b4-454802acaf9f.png)
+
 
 
 Link to deployed application : 
